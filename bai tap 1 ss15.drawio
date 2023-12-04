@@ -1,0 +1,37 @@
+<mxfile host="Electron" modified="2023-12-01T09:12:30.365Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="LD8QaZOEARbvykms5TXU" version="22.1.2" type="device">
+  <diagram name="Page-1" id="EZMdoXNjejm8s01rLf4D">
+    <mxGraphModel dx="1600" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PEAEC-Q2RtivsNcQUCsj-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="PEAEC-Q2RtivsNcQUCsj-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PEAEC-Q2RtivsNcQUCsj-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PEAEC-Q2RtivsNcQUCsj-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PEAEC-Q2RtivsNcQUCsj-3" value="start" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="280" y="240" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PEAEC-Q2RtivsNcQUCsj-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="PEAEC-Q2RtivsNcQUCsj-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="620" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PEAEC-Q2RtivsNcQUCsj-7" value="end" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="250" y="700" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="04zTovXQo9Z-i6NLQchh-1" value="struct SinhVien sv;&#xa;    printf(&quot;Nhap ho ten: &quot;);&#xa;    fgets(sv.hoTen, sizeof(sv.hoTen), stdin);&#xa;    printf(&quot;Nhap tuoi: &quot;);    &#xa;    scanf(&quot;%d&quot;, &amp;sv.tuoi);&#xa;    printf(&quot;Nhap so dien thoai: &quot;);&#xa;    scanf(&quot;%s&quot;, sv.soDienThoai);&#xa;    printf(&quot;Nhap email: &quot;);&#xa;    scanf(&quot;%s&quot;, sv.email);&#xa;    printf(&quot;\nThong tin sinh vien:\n&quot;);&#xa;    printf(&quot;Ho ten: %s&quot;, sv.hoTen);&#xa;    printf(&quot;Tuoi: %d\n&quot;, sv.tuoi);&#xa;    printf(&quot;So dien thoai: %s\n&quot;, sv.soDienThoai);&#xa;    printf(&quot;Email: %s\n&quot;, sv.email);&#xa;    return 0;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="370" width="240" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="04zTovXQo9Z-i6NLQchh-2" value="struct SinhVien {&#xa;    char hoTen[50];&#xa;    int tuoi;&#xa;    char soDienThoai[15];&#xa;    char email[50];&#xa;};" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="80" width="200" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
